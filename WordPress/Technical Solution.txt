@@ -1,0 +1,11 @@
+#1 What to do when MySQL doesn't start?
+=> Try to delete all files except the folders in "C:\xampp\mysql\data" this could probably resolve the issue.
+
+Reference: https://stackoverflow.com/questions/18022809/how-to-solve-error-mysql-shutdown-unexpectedly
+
+
+
+#2 When this error cames>> "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+=> Try to find php.ini file and change the "upload_max_filesize" parameter as per your choice.
+
+Reference: https://stackoverflow.com/questions/36963262/the-uploaded-file-exceeds-the-upload-max-filesize-directive-in-php-ini-error-whi

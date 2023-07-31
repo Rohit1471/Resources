@@ -1,0 +1,32 @@
+<---------INFINITY FREE--------->
+email: rohitsmail011@gmail.com
+pss: Mail!@#*&^159
+
+<---------ACCOUNT DETAILS--------->
+username: if0_34523241
+pss: a5Q8jFjNjjV2A9s
+LABEL: Let you boat see waters
+WEBSITE IP: 185.27.134.55
+HOME DIRECTORY: /home/vol18_1/infinityfree.com/if0_34523241
+
+<---------DOMAIN--------->
+DOMAIN NAME: mytestweb.000.pe
+
+<---------FTP--------->
+FTP USERNAME: if0_34523241
+FTP PASSWORD: a5Q8jFjNjjV2A9s
+FTP HOSTNAME: ftpupload.net
+FTP PORT (OPTIONAL): 21
+
+<-------My SQL/ PHPMYADMIN------->
+MYSQL USERNAME: if0_34523241
+MYSQL PASSWORD: a5Q8jFjNjjV2A9s
+DATABASE NAME: if0_34523241_burtron_waters
+MYSQL HOSTNAME: sql100.infinityfree.com
+MYSQL PORT (OPTIONAL): 3306
+
+
+Wordpress
+Username: rohit.pathak@weboccult.com
+Pss: RohitWeboccult@!@# / a5Q8jFjNjjV2A9s
+

@@ -1,0 +1,111 @@
+/* ---- Mostly used WordPress Function ---- */
+
+1. bloginfo(): Retrieves information about the blog or site.
+2. get_header(): Loads the header template.
+3. get_footer(): Loads the footer template.
+4. wp_head(): Outputs the HTML head section.
+5. wp_footer(): Outputs the JavaScript and other scripts.
+6. get_sidebar(): Loads the sidebar template.
+7. the_title(): Displays or retrieves the post title.
+8. the_content(): Displays or retrieves the post content.
+9. the_excerpt(): Displays or retrieves the post excerpt.
+10. the_permalink(): Displays the permalink (URL) for the post.
+11. get_permalink(): Retrieves the permalink for the post.
+12. the_author(): Displays the post author's name.
+13. the_category(): Displays the post categories.
+14. the_tags(): Displays the post tags.
+15. get_template_part(): Loads a template part into a template file.
+16. wp_nav_menu(): Displays a navigation menu.
+17. wp_list_categories(): Displays a list of categories.
+18. wp_list_pages(): Displays a list of pages.
+19. wp_register(): Displays registration link or form.
+20. wp_loginout(): Displays login/logout link.
+21. wp_logout_url(): Retrieves the URL to log out a user.
+22. get_search_form(): Displays the search form.
+23. get_search_query(): Retrieves the search query.
+24. get_search_results(): Retrieves the search results.
+25. is_front_page(): Checks if the current page is the front page.
+26. is_home(): Checks if the current page is the blog's home page.
+27. is_single(): Checks if the current page is a single post.
+28. is_page(): Checks if the current page is a static page.
+29. is_category(): Checks if the current page is a category archive page.
+30. is_tag(): Checks if the current page is a tag archive page.
+31. is_archive(): Checks if the current page is an archive page.
+32. is_search(): Checks if the current page is a search results page.
+33. is_404(): Checks if the current page is a 404-error page.
+34. get_header_image(): Retrieves the custom header image URL.
+35. get_custom_logo(): Retrieves the custom logo HTML.
+36. has_post_thumbnail(): Checks if the current post has a featured image.
+37. the_post_thumbnail(): Displays the post's featured image.
+38. add_theme_support(): Adds support for certain theme features.
+39. get_option(): Retrieves an option value from the database.
+40. update_option(): Updates an option value in the database.
+41. get_theme_mod(): Retrieves a theme modification value.
+42. set_theme_mod(): Sets a theme modification value.
+43. get_sidebar(): Loads the sidebar template.
+44. is_user_logged_in(): Checks if a user is logged in.
+45. get_current_user_id(): Retrieves the current user's ID.
+46. get_user_meta(): Retrieves user meta data.
+47. update_user_meta(): Updates user meta data.
+48. get_posts(): Retrieves a list of posts.
+49. get_pages(): Retrieves a list of pages.
+50. get_categories(): Retrieves a list of categories.
+
+
+/* ---- Brief of some function ---- */
+
+
+>>> wp_nav_menu()
+The wp_nav_menu() function in WordPress is used to display navigation menus in your theme. It allows you to output a menu, defined in the WordPress admin dashboard, anywhere in your theme template files.
+Here is the basic syntax of the wp_nav_menu() function:
+
+Code:
+=====================
+wp_nav_menu( $args );
+=====================
+
+The function accepts an array of arguments ($args) that control the behavior and appearance of the menu. Here are some commonly used arguments:
+
+==> 'menu': Specifies the menu slug or ID to display. Defaults to the theme's primary menu.
+==> 'menu_class': Adds CSS classes to the <ul> element that wraps the menu.
+==> 'container': Specifies the HTML element that wraps the menu. By default, it is set to 'div', but you can set it to 'nav' or false to remove the container.
+==> 'container_class': Adds CSS classes to the container element.
+==> 'theme_location': Specifies the theme location to associate the menu with. This should match the theme's registered menu location.
+==> 'fallback_cb': Specifies a callback function to use if no menu is assigned to the location. By default, it uses wp_page_menu() to display a list of pages.
+==> 'depth': Sets the depth of the menu to display. Use '1' for top-level items only or '0' to display all levels.
+==> 'walker': Allows you to use a custom menu walker class to modify the output and behavior of the menu.
+Here's an example of how you can use wp_nav_menu() to display a menu in your theme template:
+
+Code:
+===================================
+<?php
+$args = array(
+  'theme_location' => 'primary',
+  'menu_class'     => 'menu-class',
+  'container'      => 'nav',
+);
+wp_nav_menu( $args );
+?>
+===================================
+
+
+To pass more than one class under the class just use space.
+Code:
+=========================================================
+<?php
+$args = array(
+  'theme_location' => 'primary',
+  'menu_class'     => 'menu-class',
+  'container'      => 'nav',
+  'container_class' => 'container-class1 container-class2',
+);
+wp_nav_menu( $args );
+?>
+=========================================================
+
+
+
+
+
+
+

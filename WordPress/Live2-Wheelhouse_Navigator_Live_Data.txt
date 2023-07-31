@@ -1,0 +1,27 @@
+<---------INFINITY FREE--------->
+email: rohitsmail011@gmail.com
+pss: Mail!@#*&^159
+
+<---------ACCOUNT DETAILS--------->
+username: if0_34559136
+pss: 9WOZb1y876Nuk4
+LABEL: Let you boat see waters
+WEBSITE IP: 185.27.134.55
+HOME DIRECTORY: /home/vol18_1/infinityfree.com/if0_34523241
+
+<---------DOMAIN--------->
+DOMAIN NAME: http://wheelhouse-navigator.000.pe/
+
+<---------FTP--------->
+FTP USERNAME: if0_34559136
+FTP PASSWORD: 9WOZb1y876Nuk4
+FTP HOSTNAME: ftpupload.net
+FTP PORT (OPTIONAL): 21
+
+<-------My SQL/ PHPMYADMIN------->
+MYSQL USERNAME: if0_34559136
+MYSQL PASSWORD: 9WOZb1y876Nuk4
+DATABASE NAME: if0_34559136_Wheelhouse_Navigator
+MYSQL HOSTNAME: sql100.infinityfree.com
+MYSQL PORT (OPTIONAL): 3306	
+
