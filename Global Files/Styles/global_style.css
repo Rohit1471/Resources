@@ -61,6 +61,7 @@
    .justify_end, .justify_end_child > * {  justify-content: end;}
    .align_center, .align_center_child > * {  align-items: center;}
    .align_start, .align_start_child > * {  align-items: start;}
+   .align_stretch, .align_stretch_child > * {  align-items: stretch;}
    .align_end, .align_end_child > * {  align-items: end;}
    .flex_column, .flex_column_child > * { display: flex; flex-direction: column;}
    .flex_column_center, .flex_column_center_child > * { display: flex; flex-direction: column; align-items: center; justify-content: center;}
